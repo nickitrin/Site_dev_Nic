@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicole Trindade | Software & Data</title>
+    <meta name="description" content="Portfólio de Nicole Trindade — Engenharia de Computação, desenvolvimento web e projetos em IA." />
+    <!-- Importando fontes: Poppins (título e corpo) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <a href="#main" class="skip-link" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;" onfocus="this.style.left='5%';this.style.top='1rem';this.style.width='auto';this.style.height='auto';background:#fff;padding:8px;border-radius:4px;">Ir para o conteúdo</a>
+
+    <header>
+        <div class="wrap" style="display:flex;align-items:center;justify-content:space-between;width:100%;">
+            <a href="#" class="logo">Nicole Trindade</a>
+            <nav aria-label="Principal">
+                <a href="#about">Sobre</a>
+                <a href="#projects">Projetos</a>
+                <a href="https://github.com/nickitrin" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 01. HERO -->
+    <main id="main">
+    <section class="hero" id="about">
+        <div class="wrap">
+            <span class="section-number">
+                <svg class="section-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"></path></svg>
+                01
+            </span>
+            <div class="hero-inner">
+                <div class="hero-content">
+                    <h1>Nicole Trindade — Engenharia de Computação</h1>
+                    <p>Engenheira de Computação especializada em desenvolvimento web, front-end e aplicações de inteligência artificial. Trabalho com projetos que conectam modelagem de dados, apps web escaláveis e experiências de usuário claras.</p>
+                            <div style="display:flex;gap:12px;align-items:center;">
+                                <a href="https://github.com/nickitrin" target="_blank" rel="noopener noreferrer" class="btn">
+                                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5C5.73.5.75 5.48.75 11.74c0 4.93 3.19 9.11 7.61 10.59.56.1.77-.24.77-.53 0-.26-.01-1.12-.02-2.03-3.09.67-3.74-1.49-3.74-1.49-.5-1.28-1.22-1.62-1.22-1.62-.99-.68.08-.67.08-.67 1.09.08 1.66 1.11 1.66 1.11.97 1.66 2.55 1.18 3.17.9.1-.71.38-1.18.69-1.45-2.47-.28-5.07-1.24-5.07-5.5 0-1.21.43-2.2 1.13-2.98-.11-.28-.49-1.4.1-2.92 0 0 .93-.3 3.05 1.13.88-.25 1.82-.38 2.76-.38.94 0 1.88.13 2.76.38 2.12-1.43 3.05-1.13 3.05-1.13.59 1.52.22 2.64.11 2.92.7.78 1.13 1.77 1.13 2.98 0 4.27-2.61 5.22-5.09 5.5.39.34.73 1.02.73 2.06 0 1.49-.01 2.69-.01 3.05 0 .29.2.64.78.53C19.06 20.85 22.25 16.66 22.25 11.74 22.25 5.48 17.27.5 12 .5z"></path></svg>
+                                    Ver GitHub
+                                </a>
+                                <a href="#projects" class="btn secondary">
+                                    Ver Projetos
+                                    <svg class="icon-sm" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 4l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+                                </a>
+                            </div>
+                </div>
+
+                <div class="hero-photo" aria-hidden="false">
+                    <img src="foto.PNG" alt="Foto de Nicole Trindade">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 02. PROJETOS -->
+    <section id="projects">
+        <div class="wrap">
+            <span class="section-number">
+                <svg class="section-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"></path></svg>
+                02
+            </span>
+            <h2>Projetos</h2>
+
+            <div class="filters" role="tablist" aria-label="Filtrar projetos">
+                <button class="filter-btn active" data-filter="all" aria-pressed="true">Todos</button>
+                <button class="filter-btn" data-filter="liga" aria-pressed="false">UFRJ Analytica</button>
+                <button class="filter-btn" data-filter="prof" aria-pressed="false">Profissional</button>
+                <button class="filter-btn" data-filter="pessoal" aria-pressed="false">Projetos Pessoais</button>
+            </div>
+
+            <div class="carousel" aria-roledescription="carousel">
+                <button class="carousel-prev" aria-label="Anterior" style="background:none;border:1px solid rgba(31,36,48,0.06);padding:6px 10px;border-radius:6px;">
+                    <svg class="icon-sm" viewBox="0 0 20 20" aria-hidden="true"><path d="M12 4l-6 6 6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+                </button>
+                <div class="carousel-viewport">
+                    <div class="carousel-track">
+            <!-- Projeto 1 -->
+            <div class="card" data-category="liga" role="article" aria-hidden="false">
+                <div class="card-category">Pesquisa & Competição</div>
+                <h3 class="card-title">UFRJ Analytica — Análise de Dados</h3>
+                <p class="card-desc">Condução de análises exploratórias e visualizações para competições e estudos acadêmicos. Resultados focados em hipóteses acionáveis.</p>
+                <div class="card-meta">Python • Pandas • Visualização</div>
+            </div>
+
+            <!-- Projeto 2 -->
+            <div class="card" data-category="prof" role="article" aria-hidden="false">
+                <div class="card-category">Profissional</div>
+                <h3 class="card-title">Pesquisa em IA e Automação — MJV</h3>
+                <p class="card-desc">Desenvolvimento de protótipos de agentes e pipelines de automação para clientes, com ênfase em valor operacional.</p>
+                <div class="card-meta">IA • Automação • Integrações</div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="card" data-category="pessoal" role="article" aria-hidden="false">
+                <div class="card-category">Hackathon</div>
+                <h3 class="card-title">Equality Rank — MVP</h3>
+                <p class="card-desc">Protótipo construído em 48h para ranquear empresas por igualdade de gênero. Foco em MVP funcional e deploy rápido.</p>
+                <div class="card-meta">React • Node.js • SQLite</div>
+            </div>
+
+            <!-- Projeto 4 -->
+            <div class="card" data-category="prof" role="article" aria-hidden="false">
+                <div class="card-category">Profissional</div>
+                <h3 class="card-title">Sistemas Públicos — UX/UI</h3>
+                <p class="card-desc">Melhoria de interfaces governamentais com foco em desempenho e experiência do usuário, reduzindo passos e erros do usuário.</p>
+                <div class="card-meta">UX • HTML/SASS • Design System</div>
+            </div>
+
+            <!-- Projeto 5 -->
+            <div class="card" data-category="pessoal" role="article" aria-hidden="false">
+                <div class="card-category">Projeto Pessoal</div>
+                <h3 class="card-title">App de Tarefas</h3>
+                <p class="card-desc">Aplicativo nativo focado em usabilidade e sincronização local, pensado para organização pessoal eficiente.</p>
+                <div class="card-meta">Kotlin • Jetpack Compose</div>
+            </div>
+            
+            <!-- Projeto 6 -->
+            <div class="card" data-category="pessoal" role="article" aria-hidden="false">
+                <div class="card-category">Projeto Pessoal</div>
+                <h3 class="card-title">Virtuosas — Website</h3>
+                <p class="card-desc">Website responsivo entregue com ênfase em performance, SEO básico e design de leitura.</p>
+                <div class="card-meta">React • JavaScript • Vercel</div>
+            </div>
+                    </div> <!-- .carousel-track -->
+                </div> <!-- .carousel-viewport -->
+                <button class="carousel-next" aria-label="Próximo" style="background:none;border:1px solid rgba(31,36,48,0.06);padding:6px 10px;border-radius:6px;">
+                    <svg class="icon-sm" viewBox="0 0 20 20" aria-hidden="true"><path d="M8 4l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+                </button>
+            </div> <!-- .carousel -->
+        </div>
+    </section>
+
+    <!-- 02b. ATIVIDADES EXTRACURRICULARES -->
+    <section id="extracurriculars">
+        <div class="wrap">
+            <span class="section-number">
+                <svg class="section-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zM8 11c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zM8 13c-2.33 0-7 1.17-7 3.5V20h14v-3.5C15 14.17 10.33 13 8 13zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.99 1.97 3.45V20h6v-3.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+                03
+            </span>
+            <h2>Atividades Extracurriculares</h2>
+            <div class="grid">
+                <div class="card" role="article">
+                    <div class="card-category">Comunidade</div>
+                    <h3 class="card-title">UFRJ Analytica — Membro ativo</h3>
+                    <p class="card-desc">Participação em projetos de dados, orientação a colegas e organização de encontros técnicos.</p>
+                    <div class="card-meta">Workshops • Mentoria • Competição</div>
+                </div>
+
+                <div class="card" role="article">
+                    <div class="card-category">Hackathons</div>
+                    <h3 class="card-title">Hacking.rio e Maratonas</h3>
+                    <p class="card-desc">Participação em equipes multidisciplinares, experiência em prototipagem rápida e deploys em produção.</p>
+                    <div class="card-meta">Prototipagem • Deploy rápido</div>
+                </div>
+
+                <div class="card" role="article">
+                    <div class="card-category">Voluntariado</div>
+                    <h3 class="card-title">Capacitação em IA</h3>
+                    <p class="card-desc">Ministração de treinamentos internos e sessões de introdução a ferramentas de IA para times multidisciplinares.</p>
+                    <div class="card-meta">Workshops • Currículo</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 04. ATUAÇÃO PROFISSIONAL -->
+    <section class="experience-section" aria-labelledby="experience-title">
+        <div class="wrap">
+            <span class="section-number">
+                <svg class="section-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 4V2h4v2h5v4H5V4h5zM4 10h16v8c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2v-8z"/></svg>
+                04
+            </span>
+            <h2 id="experience-title">Atuação Profissional</h2>
+
+            <div class="exp-grid">
+                <div class="exp-item">
+                    <h3>Analista de Tecnologia & IA — MJV</h3>
+                    <span>Abr 2025 — Atualmente</span>
+                    <p>Desenvolvo protótipos de IA, automações e soluções integradas para clientes, além de conduzir treinamentos práticos para equipes.</p>
+                </div>
+
+                <div class="exp-item">
+                    <h3>Front End & UX Developer — CapGov</h3>
+                    <span>Nov 2021 — Nov 2024</span>
+                    <p>Projetei e implementei interfaces escaláveis para serviços públicos, com foco em desempenho, clareza e redução de atrito para o usuário.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 05. IDIOMAS -->
+    <section id="languages">
+        <div class="wrap">
+            <span class="section-number">
+                <svg class="section-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 2c1.66 0 3.2.4 4.55 1.1-1.2 1.86-2.94 3.4-4.55 3.4s-3.35-1.54-4.55-3.4C8.8 4.4 10.34 4 12 4z"/></svg>
+                05
+            </span>
+            <h2>Idiomas</h2>
+            <div class="languages" style="display:flex;gap:12px;flex-wrap:wrap;margin-top:1rem;">
+                <div class="lang-item" style="background:#fff;border:1px solid rgba(31,36,48,0.06);padding:10px 12px;border-radius:8px;min-width:180px;">
+                    <strong>Inglês</strong>
+                    <div style="font-size:0.95rem;color:var(--muted);">Avançado</div>
+                </div>
+                <div class="lang-item" style="background:#fff;border:1px solid rgba(31,36,48,0.06);padding:10px 12px;border-radius:8px;min-width:180px;">
+                    <strong>Francês</strong>
+                    <div style="font-size:0.95rem;color:var(--muted);">Básico</div>
+                </div>
+                <div class="lang-item" style="background:#fff;border:1px solid rgba(31,36,48,0.06);padding:10px 12px;border-radius:8px;min-width:180px;">
+                    <strong>Espanhol</strong>
+                    <div style="font-size:0.95rem;color:var(--muted);">Básico</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Nicole Trindade. Minimalist & Clean Code. <a href="https://github.com/nickitrin" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg class="icon-sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5C5.73.5.75 5.48.75 11.74c0 4.93 3.19 9.11 7.61 10.59.56.1.77-.24.77-.53 0-.26-.01-1.12-.02-2.03-3.09.67-3.74-1.49-3.74-1.49-.5-1.28-1.22-1.62-1.22-1.62-.99-.68.08-.67.08-.67 1.09.08 1.66 1.11 1.66 1.11.97 1.66 2.55 1.18 3.17.9.1-.71.38-1.18.69-1.45-2.47-.28-5.07-1.24-5.07-5.5 0-1.21.43-2.2 1.13-2.98-.11-.28-.49-1.4.1-2.92 0 0 .93-.3 3.05 1.13.88-.25 1.82-.38 2.76-.38.94 0 1.88.13 2.76.38 2.12-1.43 3.05-1.13 3.05-1.13.59 1.52.22 2.64.11 2.92.7.78 1.13 1.77 1.13 2.98 0 4.27-2.61 5.22-5.09 5.5.39.34.73 1.02.73 2.06 0 1.49-.01 2.69-.01 3.05 0 .29.2.64.78.53C19.06 20.85 22.25 16.66 22.25 11.74 22.25 5.48 17.27.5 12 .5z"></path></svg></a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
